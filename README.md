@@ -1,5 +1,5 @@
-# DeuxExponential
-Desktop-variant of 2048 game
+# Deux Exponential
+Desktop-variant of 2048 game.
 
 
 

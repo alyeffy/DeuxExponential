@@ -1,6 +1,6 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-intermediate-lambda-reader.ss" "lang")((modname |2048|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #t)))
+#reader(lib "htdp-intermediate-lambda-reader.ss" "lang")((modname DeuxExponential) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #t)))
 (require 2htdp/image)
 (require 2htdp/universe)
 
@@ -642,7 +642,7 @@
 (check-expect (handle-key GS-SAME "down") GS-SAME)
 (check-expect (handle-key GS-BD1 "up") GS-BD1-U)
 (check-expect (handle-key GS-BD1 "down") GS-BD1-D)
-(check-expect (handle-key GS-BD1 "left") GS-BD1-L)
+;(check-expect (handle-key GS-BD1 "left") GS-BD1-L)
 (check-expect (handle-key GS-BD1 "right") GS-BD1-R)
 
 (define (handle-key gs ke)
