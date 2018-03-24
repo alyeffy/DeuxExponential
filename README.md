@@ -10,6 +10,6 @@ Found a really old project I did in the earlier days of undergrad, back when I w
 # Usage
 1. Download and install [DrRacket](https://download.racket-lang.org/).
 2. Open the DeuxExponential.rkt file in DrRacket.
-3. In the console, type (main GSX), where X is any integer 1-5, and hit enter.
-4. The rules of the game are similar. The goal is to get the value any tile on the board to 2048. You control the movement of the tiles using the arrow keys. When a tile collides with another tile of the same value, it adds up to one tile with their added numerical value. You lose the game if the board is full and you have no moves left (i.e. none of the tiles can collapse with each other).
+3. In the console, type `(main GSX)`, where X is any integer 1-5, and hit enter.
+4. The rules of the game are similar. The goal is to get the value of any tile on the board to 2048. You control the movement of the tiles using the arrow keys. When a tile collides with another tile of the same value, they become one tile with the summed numerical value of the 2 tiles. You lose the game if the board is full and you have no moves left (i.e. none of the tiles can collapse with each other).
 5. Enjoy :)
